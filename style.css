@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+body {
+  font-family: 'Varela', sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url('Img/gorilaa.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+/* Nav Bar */
+
+.logo img {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+nav {
+  height: 95px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #eee;
+  overflow: hidden;
+}
+nav ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 10px;
+  color: #eee;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: crimson;
+}
+nav a#openup {
+  display: none;
+}
+
+/* Section */
+.Container {
+  padding-left: 50px;
+  display: flex;
+  color: #eee;
+  flex-wrap: wrap;
+  text-align: center;
+	justify-content: space-between;
+}
+
+.First-Sec h1 {
+  font-size: 4.9em;
+  font-family: 'piedra', cursive;
+  line-height: 2em;
+  text-align: center;
+  margin-right: 500px;
+  margin-top: 400px;
+  padding: 10px;
+  color: rgb(240, 240, 240);
+}
+
+.Mid-Sec h1 {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 2.9em;
+  letter-spacing: 0.2em;
+  font-family: 'piedra', cursive;
+  color: rgb(240, 240, 240);
+}
+
+.Last-Sec h1 {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 2.9em;
+  letter-spacing: 0.2em;
+  font-family: 'piedra', cursive;
+  color: rgb(240, 240, 240);
+}
+
+#Img-Dec img {
+  width: 100%;
+  height: 650px;
+}
+
+#Img-Dec a {
+  text-decoration: none;
+}
+
+#Text-Dec {
+  position: absolute;
+  top: 285%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+}
+
+#Dates {
+  font-size: 3em;
+  font-family: 'piedra', cursive;
+  text-align: center;
+  color: rgb(189, 189, 189);
+  position: relative;
+  bottom: 150px;
+}
+
+/* Footer */
+
+.Section-Misc {
+  color: crimson;
+  font-size: 1.9em;
+  margin-left: 500px;
+  /* margin-bottom: 100px; */
+  position: absolute;
+
+}
+
+#News-Letter {
+  float: right;
+}
+
+.Form-Dec {
+  padding-left: 15px;
+  margin-right: 52px;
+}
+
+input[type = "email"] {
+  padding: 10px 4px 10px 4px;
+  position: relative;
+  width: 60%;
+  border: #ccc 1px solid;
+  padding-left: 50px;
+  border-radius: 15px;
+}
+
+#Btn {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  width: 79%;
+  border-radius: 1px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+#Btn:hover {
+  background-color: crimson;
+}
+
+/* Footer */
+
+.Social-Links {
+  float: right;
+  margin-top: 350px;
+}
+
+.Social-Icon-1 img {
+  position: absolute;
+  left: 45%;
+  top: 417%;
+}
+
+.Social-Icon-2 img {
+  position: absolute;
+  left: 44%;
+  top: 438%;
+}
+
+#Footer-Text {
+  color: crimson;
+  font-size: 1.9em;
+  margin-left: 500px;
+  position: absolute;
+  top: 390%;
+  left: 2%;
+}
+
+#footer {
+  background-color: crimson;
+
+}
+
+#copyright {
+  margin-top: 750px;
+  margin-left: 550px;
+  margin-bottom: 0;
+  left: 100%;
+  padding: 10px;
+  color: #eee;
+}
+
+/*  Blinking Effect */
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+  0%{color: crimson;}
+  49%{color: crimson;}
+  60%{color: transparent;}
+  99%{color: transparent;}
+  100%{color: crimson;}
+}
+
+.Box-1 {
+  flex: 2;
+  order: 2;
+
+}
+.Box-2 {
+  flex: 2;
+  order: 2;
+}
+.Box-3 {
+  flex: 2;
+	order: 2;
+}
+
+.Box-1 img {
+  width: 80%;
+}
+.Box-2 img {
+  width: 80%;
+}
+.Box-3 img {
+  width: 80%;
+}
+
+
+
+
+/* Text Animation */
+
+h1 span {
+  display: inline;
+  animation: animate 3s linear infinite;
+}
+
+h1 span :nth-child(1)
+{
+  animation-delay: 0s;
+}
+h1 span :nth-child(2)
+{
+  animation-delay: 0.25s;
+}
+h1 span :nth-child(3)
+{
+  animation-delay: 0.5s;
+}
+h1 span :nth-child(4)
+{
+  animation-delay: 0.75s;
+}
+h1 span :nth-child(5)
+{
+  animation-delay: 1s;
+}
+h1 span :nth-child(6)
+{
+  animation-delay: 1.25s;
+}
+h1 span :nth-child(7)
+{
+  animation-delay: 1.5s;
+}
+
+@keyframes animate {
+  0%,100%
+  {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px crimson,
+                 0 0 20px crimson,
+                 0 0 40px crimson,
+                 0 0 80px crimson,
+                 0 0 120px crimson,
+                 0 0 200px crimson,
+                 0 0 300px crimson,
+                 0 0 400px crimson;
+  }
+  5%,95%
+  {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (min-width: 480px) {
+  
+  body {
+    font-family: 'Varela', sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: url('Img/gorilaa.jpg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin: 0;
+  }
+
+
+  nav {
+    height: auto;
+    width: 50%;
+    border-bottom: 0;
+  }
+  nav ul {
+    width: 50%;
+  }
+  nav li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #333;
+    border-bottom: 1px solid #555;
+  }
+  nav a:hover {
+    background: crimson;
+  }
+}
