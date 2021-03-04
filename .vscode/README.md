@@ -4,4 +4,4 @@
 
 ### Technologies Used:- HTML, CSS and Javascript.
 
-### Find me on Instagram: @el
+### Find me on Instagram: @ele
