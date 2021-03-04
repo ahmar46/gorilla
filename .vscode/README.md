@@ -4,4 +4,4 @@
 
 ### Technologies Used:- HTML, CSS and Javascript.
 
-### Find me on Instagram: @electrifying_co
+### Find me on Instagram: @electrifying_cod
